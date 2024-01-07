@@ -1,0 +1,11 @@
+{
+  "name": "unit-test-nodejs",
+  "version": "1.0.0",
+  "description": "NodeJS Unit Test",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anita Silvi",
+  "license": "ISC"
+}
