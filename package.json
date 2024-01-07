@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "NodeJS Unit Test",
   "main": "./src/index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Anita Silvi",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
