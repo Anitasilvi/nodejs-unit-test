@@ -7,9 +7,16 @@
   "scripts": {
     "test": "jest"
   },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
   "author": "Anita Silvi",
   "license": "ISC",
   "devDependencies": {
+    "@babel/preset-env": "^7.23.7",
+    "babel-jest": "^29.7.0",
     "jest": "^29.7.0"
   }
 }
