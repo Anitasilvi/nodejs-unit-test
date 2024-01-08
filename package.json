@@ -8,7 +8,7 @@
     "test": "jest"
   },
   "jest": {
-    "verbose": true,
+    "verbose": true, 
     "transform": {
       "^.+\\.[t|j]sx?$": "babel-jest"
     }
@@ -16,6 +16,7 @@
   "author": "Anita Silvi",
   "license": "ISC",
   "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.23.7",
     "@babel/preset-env": "^7.23.7",
     "babel-jest": "^29.7.0",
     "jest": "^29.7.0"
